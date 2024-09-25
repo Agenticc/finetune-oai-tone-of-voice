@@ -13,7 +13,7 @@ This script helps you create a valid training dataset for fine-tuning an OpenAI 
 6. Modify `constants.js` inside the `/config` folder (just add your system prompt)
 7. Generate your dataset with `node run` (it will be saved as `dataset.jsonl`)
 
-### Tips
+### Tip
 Don't torture yourself. It can be tedious to format your examples in `trainingdata.js` manually, so use this prompt instead:
 
 > You will receive multiple text snippets of varying lengths.   
