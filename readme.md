@@ -14,7 +14,10 @@ This script helps you create a valid training dataset for fine-tuning an OpenAI 
 7. Generate your dataset with `node run` (it will be saved as `dataset.jsonl`)
 
 ### Tip
-Don't torture yourself. It can be tedious to format your examples in `trainingdata.js` manually, so use this prompt instead:
+
+**Don't torture yourself.** 
+
+It can be tedious to format your examples in `trainingdata.js` manually, so use this prompt instead:
 
 > You will receive multiple text snippets of varying lengths.   
 > Your task is to combine these snippets into a single, properly formatted (valid) text string enclosed in double quotation marks (").
